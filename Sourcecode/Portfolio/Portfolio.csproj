@@ -126,6 +126,7 @@
     <Content Include="Content\img\header_bg.jpg" />
     <Content Include="Content\img\Logo_of_Global_Lives_Project.jpg" />
     <Content Include="Content\img\open-uri20150917-3-1dzu01o.jpg" />
+    <Content Include="Content\img\picture.png" />
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
