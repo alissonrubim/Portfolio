@@ -128,11 +128,14 @@
     <Content Include="Content\fonts\fa-regular-400.svg" />
     <Content Include="Content\fonts\fa-solid-900.svg" />
     <Content Include="Content\img\bg1.jpeg" />
+    <Content Include="Content\img\easywaiters.jpg" />
     <Content Include="Content\img\example_project.jpg" />
+    <Content Include="Content\img\favicon.png" />
     <Content Include="Content\img\header_bg.jpg" />
     <Content Include="Content\img\Logo_of_Global_Lives_Project.jpg" />
     <Content Include="Content\img\open-uri20150917-3-1dzu01o.jpg" />
     <Content Include="Content\img\picture.png" />
+    <Content Include="Content\img\tradingview.jpg" />
     <Content Include="Content\Site.css">
       <DependentUpon>Site.scss</DependentUpon>
     </Content>
