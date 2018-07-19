@@ -13,6 +13,8 @@ namespace Portfolio
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+            GlobalizationConfig.RegisterGlobalizationController();
+            AbstratoPackage.MVC.HtmlHelpers.Globalization.GlobalizationControllerInstance = GlobalizationConfig.GlobalizationController;
         }
     }
 }
