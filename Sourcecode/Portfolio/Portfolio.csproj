@@ -131,9 +131,11 @@
     <Content Include="Content\fonts\fa-regular-400.svg" />
     <Content Include="Content\fonts\fa-solid-900.svg" />
     <Content Include="Content\img\bg1.jpeg" />
+    <Content Include="Content\img\brazil.png" />
     <Content Include="Content\img\easywaiters.jpg" />
     <Content Include="Content\img\example_project.jpg" />
     <Content Include="Content\img\favicon.png" />
+    <Content Include="Content\img\france.png" />
     <Content Include="Content\img\gaengine.jpg" />
     <Content Include="Content\img\guideme.gif" />
     <Content Include="Content\img\guideme.jpg" />
@@ -142,6 +144,7 @@
     <Content Include="Content\img\open-uri20150917-3-1dzu01o.jpg" />
     <Content Include="Content\img\picture.png" />
     <Content Include="Content\img\tradingview.jpg" />
+    <Content Include="Content\img\united-states.png" />
     <Content Include="Content\Site.css">
       <DependentUpon>Site.scss</DependentUpon>
     </Content>
@@ -176,6 +179,7 @@
     <Content Include="scripts\jquery-1.10.2.js" />
     <Content Include="scripts\jquery-1.10.2.min.js" />
     <Content Include="scripts\modernizr-2.6.2.js" />
+    <Content Include="scripts\Site.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -193,6 +197,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>en-US.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Strings\fr-FR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>fr-FR.resx</DependentUpon>
     </Compile>
     <Compile Include="Strings\pt-BR.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -228,6 +237,10 @@
     <EmbeddedResource Include="Strings\en-US.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>en-US.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings\fr-FR.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>fr-FR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Strings\pt-BR.resx">
       <Generator>ResXFileCodeGenerator</Generator>

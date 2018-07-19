@@ -30,14 +30,7 @@ namespace Portfolio
                         browserLanguage = splitbrowserLanguages[0].Split(',')[0];
                     }
 
-                    if(browserLanguage == "pt-BR")
-                    {
-                        HttpContext.Current.Session["CURRENT_LANGUAGE"] = "pt-BR";
-                    }
-                    else
-                    {
-                        HttpContext.Current.Session["CURRENT_LANGUAGE"] = "en-US";
-                    }
+                    GlobalizationConfig.SetCurrentLanguage(browserLanguage);
                 }
             }
         }

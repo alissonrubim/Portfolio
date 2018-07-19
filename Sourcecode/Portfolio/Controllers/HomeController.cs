@@ -13,5 +13,11 @@ namespace Portfolio.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public void SetLanguage(string code)
+        {
+            GlobalizationConfig.SetCurrentLanguage(code);
+        } 
     }
 }

@@ -1,7 +1,20 @@
-﻿body {
-  padding: 0px;
-  font-family: 'Roboto', sans-serif;
-  background-color: #f7f7f7; }
+﻿i.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px; }
+  i.arrow.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg); }
+  i.arrow.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg); }
+  i.arrow.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg); }
+  i.arrow.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg); }
 
 .float-left {
   float: left; }
@@ -9,9 +22,46 @@
 .float-right {
   float: right; }
 
+/*---- Site ----*/
+body {
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f7f7f7; }
+
 div.wrapper {
   width: 900px;
   margin: 0 auto; }
+
+#combobox-language-list {
+  position: absolute;
+  width: 200px;
+  min-height: 20px;
+  background-color: white;
+  left: -120px;
+  top: 30px;
+  z-index: 99999;
+  box-shadow: 0px 0px 10px rgba(70, 70, 70, 0.19); }
+  #combobox-language-list .item-list {
+    color: black;
+    font-size: 16px;
+    text-align: right;
+    padding: 6px 10px;
+    border-bottom: 3px solid #f7f7f7; }
+    #combobox-language-list .item-list:hover {
+      background-color: #f7f7f7; }
+    #combobox-language-list .item-list i.flag {
+      width: 16px;
+      height: 16px;
+      background-repeat: no-repeat;
+      background-size: 16px 16px;
+      display: block;
+      float: left; }
+      #combobox-language-list .item-list i.flag.united-states-flag {
+        background-image: url("img/united-states.png"); }
+      #combobox-language-list .item-list i.flag.france-flag {
+        background-image: url("img/france.png"); }
+      #combobox-language-list .item-list i.flag.brazil-flag {
+        background-image: url("img/brazil.png"); }
 
 header#header-main {
   height: 400px;
@@ -27,8 +77,18 @@ header#header-main {
     padding: 60px 0px;
     box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.28); }
     header#header-main div#profile-text div#combobox-language-container {
+      cursor: pointer;
       color: white;
-      font-size: 18px; }
+      font-size: 18px;
+      position: relative;
+      z-index: 99999; }
+      header#header-main div#profile-text div#combobox-language-container label {
+        font-weight: 100;
+        cursor: pointer; }
+      header#header-main div#profile-text div#combobox-language-container i.arrow {
+        margin-left: 10px;
+        position: relative;
+        top: -4px; }
     header#header-main div#profile-text div#profile-text-name {
       width: 200px;
       color: white;

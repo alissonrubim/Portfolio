@@ -1,4 +1,40 @@
-﻿body {
+﻿i.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+
+    &.right {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+    }
+
+    &.left {
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+    }
+
+    &.up {
+        transform: rotate(-135deg);
+        -webkit-transform: rotate(-135deg);
+    }
+
+    &.down {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+    }
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+/*---- Site ----*/
+body {
     padding: 0px;
     font-family: 'Roboto', sans-serif;
     background-color: #f7f7f7;
@@ -9,17 +45,54 @@ $subPalleteColor: #03a8bd;
 $wrapperWidth: 900px;
 $profileCardHeight: 350px;
 
-.float-left {
-    float: left;
-}
-
-.float-right {
-    float: right;
-}
-
 div.wrapper {
     width: $wrapperWidth;
     margin: 0 auto;
+}
+
+
+#combobox-language-list {
+    position: absolute;
+    width: 200px;
+    min-height: 20px;
+    background-color: white;
+    left: -120px;
+    top: 30px;
+    z-index: 99999;
+    box-shadow: 0px 0px 10px rgba(70, 70, 70, 0.19);
+
+    .item-list {
+        color: black;
+        font-size: 16px;
+        text-align: right;
+        padding: 6px 10px;
+        border-bottom: 3px solid #f7f7f7;
+
+        &:hover {
+            background-color: #f7f7f7;
+        }
+
+        i.flag {
+            width: 16px;
+            height: 16px;
+            background-repeat: no-repeat;
+            background-size: 16px 16px;
+            display: block;
+            float: left;
+
+            &.united-states-flag {
+                background-image: url("img/united-states.png");
+            }
+
+            &.france-flag {
+                background-image: url("img/france.png");
+            }
+
+            &.brazil-flag {
+                background-image: url("img/brazil.png");
+            }
+        }
+    }
 }
 
 header#header-main {
@@ -40,8 +113,22 @@ header#header-main {
         box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.28);
 
         div#combobox-language-container {
+            cursor: pointer;
             color: white;
             font-size: 18px;
+            position: relative;
+            z-index: 99999;
+
+            label {
+                font-weight: 100;
+                cursor: pointer;
+            }
+
+            i.arrow {
+                margin-left: 10px;
+                position: relative;
+                top: -4px;
+            }
         }
 
         div#profile-text-name {
