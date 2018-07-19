@@ -79,6 +79,15 @@ namespace Portfolio.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Avançado.
+        /// </summary>
+        internal static string Advanced {
+            get {
+                return ResourceManager.GetString("Advanced", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Idade.
         /// </summary>
         internal static string Age {
@@ -97,11 +106,47 @@ namespace Portfolio.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Básico.
+        /// </summary>
+        internal static string Basic {
+            get {
+                return ResourceManager.GetString("Basic", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Clique aqui para conhecer mais alguns de meus projetos.
+        /// </summary>
+        internal static string Clique_here_to_know_more_about_my_projects {
+            get {
+                return ResourceManager.GetString("Clique here to know more about my projects", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Criado e idealizado por.
         /// </summary>
         internal static string Created_and_idealized_by {
             get {
                 return ResourceManager.GetString("Created and idealized by", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Banco de dados.
+        /// </summary>
+        internal static string Database {
+            get {
+                return ResourceManager.GetString("Database", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Design.
+        /// </summary>
+        internal static string Design {
+            get {
+                return ResourceManager.GetString("Design", resourceCulture);
             }
         }
         
@@ -133,6 +178,15 @@ namespace Portfolio.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Inglês.
+        /// </summary>
+        internal static string English {
+            get {
+                return ResourceManager.GetString("English", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Fullstack Developer.
         /// </summary>
         internal static string Fullstack_Developer {
@@ -147,6 +201,24 @@ namespace Portfolio.Strings {
         internal static string I_m_Alisson_Rubim {
             get {
                 return ResourceManager.GetString("I\'m Alisson Rubim", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Intermediário.
+        /// </summary>
+        internal static string Intermediate {
+            get {
+                return ResourceManager.GetString("Intermediate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Línguas.
+        /// </summary>
+        internal static string Languages {
+            get {
+                return ResourceManager.GetString("Languages", resourceCulture);
             }
         }
         
@@ -169,6 +241,15 @@ namespace Portfolio.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Nativo.
+        /// </summary>
+        internal static string Native {
+            get {
+                return ResourceManager.GetString("Native", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Navigate.
         /// </summary>
         internal static string Navigate {
@@ -183,6 +264,15 @@ namespace Portfolio.Strings {
         internal static string Phone {
             get {
                 return ResourceManager.GetString("Phone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Português.
+        /// </summary>
+        internal static string Portuguese {
+            get {
+                return ResourceManager.GetString("Portuguese", resourceCulture);
             }
         }
         
@@ -219,6 +309,15 @@ namespace Portfolio.Strings {
         internal static string SKILLS___UpperCase_ {
             get {
                 return ResourceManager.GetString("SKILLS [#UpperCase]", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Espanhol.
+        /// </summary>
+        internal static string Spanish {
+            get {
+                return ResourceManager.GetString("Spanish", resourceCulture);
             }
         }
         

@@ -7,14 +7,18 @@ Site.Initiate = function () {
             name: "English",
             code: "en-US",
             icon: "united-states-flag",
-        },{
-            name: "Português",
-            code: "pt-BR",
-            icon: "brazil-flag"
+        }, {
+            name: "Español",
+            code: "es-ES",
+            icon: "spain-flag"
         }, {
             name: "Français",
             code: "fr-FR",
             icon: "france-flag"
+        },{
+            name: "Português",
+            code: "pt-BR",
+            icon: "brazil-flag"
         }]);    
 
     function smoothScroll(to) {

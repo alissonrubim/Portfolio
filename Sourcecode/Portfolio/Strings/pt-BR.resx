@@ -177,4 +177,37 @@
   <data name="Welcome," xml:space="preserve">
     <value>Seja bem-vindo(a),</value>
   </data>
+  <data name="Advanced" xml:space="preserve">
+    <value>Avançado</value>
+  </data>
+  <data name="Basic" xml:space="preserve">
+    <value>Básico</value>
+  </data>
+  <data name="Clique here to know more about my projects" xml:space="preserve">
+    <value>Clique aqui para conhecer mais alguns de meus projetos</value>
+  </data>
+  <data name="Database" xml:space="preserve">
+    <value>Banco de dados</value>
+  </data>
+  <data name="Design" xml:space="preserve">
+    <value>Design</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>Inglês</value>
+  </data>
+  <data name="Intermediate" xml:space="preserve">
+    <value>Intermediário</value>
+  </data>
+  <data name="Languages" xml:space="preserve">
+    <value>Línguas</value>
+  </data>
+  <data name="Native" xml:space="preserve">
+    <value>Nativo</value>
+  </data>
+  <data name="Portuguese" xml:space="preserve">
+    <value>Português</value>
+  </data>
+  <data name="Spanish" xml:space="preserve">
+    <value>Espanhol</value>
+  </data>
 </root>
