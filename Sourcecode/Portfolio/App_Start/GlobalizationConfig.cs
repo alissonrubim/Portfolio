@@ -40,6 +40,21 @@ namespace Portfolio
             }
         }
 
+        public static string GetCurrentLanguageName()
+        {
+            string name = "English";
+            if (GlobalizationConfig.GetCurrentLanguage() == "pt-BR")
+            {
+                name = "Português";
+            }
+            else if (GlobalizationConfig.GetCurrentLanguage() == "fr-FR")
+            {
+                name = "Français";
+            }
+
+            return name;
+        }
+
         public static string GetCurrentLanguage()
         {
             return HttpContext.Current.Session["CURRENT_LANGUAGE"] != null ? (string)HttpContext.Current.Session["CURRENT_LANGUAGE"] : "en-US";

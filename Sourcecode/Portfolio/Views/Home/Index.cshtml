@@ -1,16 +1,6 @@
 ﻿
 @{
     ViewBag.Title = "Alisson Rubim - Fullstack developer";
-
-    ViewBag.LanguageName = "English";
-    if (GlobalizationConfig.GetCurrentLanguage() == "pt-BR")
-    {
-        ViewBag.LanguageName = "Português";
-    }
-    else if (GlobalizationConfig.GetCurrentLanguage() == "fr-FR")
-    {
-        ViewBag.LanguageName = "Français";
-    }
 }
 
 <header id="header-main">
@@ -19,10 +9,10 @@
     <div id="profile-text">
         <div class="wrapper">
             <div id="combobox-language-container" class="float-right">
-                <label>@ViewBag.LanguageName</label><i class="arrow down"></i></p>
+                <label>@GlobalizationConfig.GetCurrentLanguageName()</label><i class="arrow down"></i></p>
             </div>
             <div id="profile-text-name">ALISSON RUBIM</div>
-            <div id="profile-text-detail">Fullstack Developer</div>
+            <div id="profile-text-detail">@Globalization.GetString("Fullstack Developer")</div>
         </div>
     </div>
 
@@ -44,15 +34,15 @@
                             <td>25</td>
                         </tr>
                         <tr>
-                            <td><b>Website</b></td>
+                            <td><b>@Globalization.GetString("Website")</b></td>
                             <td>https://www.alissonrubim.com</td>
                         </tr>
                         <tr>
-                            <td><b>Email</b></td>
+                            <td><b>@Globalization.GetString("Email")</b></td>
                             <td>alissonrubim@gmail.com</td>
                         </tr>
                         <tr>
-                            <td><b>Telefone</b></td>
+                            <td><b>@Globalization.GetString("Phone")</b></td>
                             <td>+55 32 991416679</td>
                         </tr>
                     </table>
@@ -76,7 +66,7 @@
 <div class="wrapper">
     <section class="scope about" id="section-about">
         <header id="section-about-header">
-            <h4><i class="fas fa-address-card"></i> SOBRE</h4>
+            <h4><i class="fas fa-address-card"></i> @Globalization.GetString("ABOUT ME [#UpperCase]")</h4>
         </header>
         <article class="card">
             <p>Brasileiro nascido em Minas Gerais, sou um rapaz apaixonado por tecnologia e que logo cedo descobriu que seu hobby de programador poderia se tornar uma profissão. Desde os 14 anos busquei aprender e aprimorar meus conhecimentos, começando com o básico do C e descobrindo com o tempo a minha vocação para o desenvolvimento web.</p>
@@ -89,7 +79,7 @@
 <div class="wrapper">
     <section class="scope skills" id="section-skills">
         <header id="section-skills-header">
-            <h4><i class="fas fa-hand-spock"></i> HABILIDADES</h4>
+            <h4><i class="fas fa-hand-spock"></i> @Globalization.GetString("SKILLS [#UpperCase]")</h4>
         </header>
         <article id="skill-contents">
             <div>
@@ -242,7 +232,7 @@
 
     <section class="scope" id="section-education">
         <header id="section-education-header">
-            <h4><i class="fas fa-graduation-cap"></i> ACADÊMICO</h4>
+            <h4><i class="fas fa-graduation-cap"></i> @Globalization.GetString("EDUCATION [#UpperCase]")</h4>
         </header>
 
         <article class="education left">
@@ -282,7 +272,7 @@
 
     <section class="scope" id="section-projects">
         <header id="section-projects-header">
-            <h4><i class="fas fa-briefcase"></i> PROJETOS</h4>
+            <h4><i class="fas fa-briefcase"></i> @Globalization.GetString("PROJECTS [#UpperCase]")</h4>
         </header>
         <article class="card project">
             <div class="project-picture">
@@ -336,33 +326,33 @@
     <div class="wrapper">
         <div class="footer-contents">
             <div class="table-cell">
-                <div id="footer-menu-title"><label>Navegar</label></div>
+                <div id="footer-menu-title"><label>@Globalization.GetString("Navigate")</label></div>
                 <nav id="menu-sections">
                     <ul>
-                        <li><a href="#section-about-header">Sobre</a></li>
-                        <li><a href="#section-skills-header">Habilidade</a></li>
-                        <li><a href="#section-education-header">Acadêmico</a></li>
-                        <li><a href="#section-projects-header">Projetos</a></li>
+                        <li><a href="#section-about-header">@Globalization.GetString("About me")</a></li>
+                        <li><a href="#section-skills-header">@Globalization.GetString("Skills")</a></li>
+                        <li><a href="#section-education-header">@Globalization.GetString("Education")</a></li>
+                        <li><a href="#section-projects-header">@Globalization.GetString("Projects")</a></li>
                     </ul>
                 </nav>
             </div>
             <div class="table-cell">
-                <div id="footer-menu-title" class="profile"><label>Meus dados</label></div>
+                <div id="footer-menu-title" class="profile"><label>@Globalization.GetString("My informations")</label></div>
                 <table id="profile-info">
                     <tr>
-                        <td><b>Idade</b></td>
+                        <td><b>@Globalization.GetString("Age")</b></td>
                         <td>25</td>
                     </tr>
                     <tr>
-                        <td><b>Website</b></td>
+                        <td><b>@Globalization.GetString("Website")</b></td>
                         <td>https://www.alissonrubim.com</td>
                     </tr>
                     <tr>
-                        <td><b>Email</b></td>
+                        <td><b>@Globalization.GetString("Email")</b></td>
                         <td>alissonrubim@gmail.com</td>
                     </tr>
                     <tr>
-                        <td><b>Telefone</b></td>
+                        <td><b>@Globalization.GetString("Phone")</b></td>
                         <td>+55 32 991416679</td>
                     </tr>
                 </table>
@@ -387,16 +377,14 @@
         <div class="wrapper">
             <table>
                 <tr>
-                    <td>© 2018 - alissonrubim.com <br /> Fullstack Developer</td>
-                    <td>Criado e idealizado por Alisson Rubim</td>
-                    <td>Feito com <i class="fas fa-heart"></i><br/> e muito café</td>
+                    <td>© 2018 - alissonrubim.com <br /> @Globalization.GetString("Fullstack Developer")</td>
+                    <td>@Globalization.GetString("Created and idealized by") Alisson Rubim</td>
+                    <td>@Globalization.GetString("Make with") <i class="fas fa-heart"></i><br /> @Globalization.GetString("and alot of coffee")</td>
                 </tr>
             </table>
         </div>
     </div>
 </footer>
-
-
 
 <script>
     $(document).ready(function () {

@@ -117,11 +117,62 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="About me" xml:space="preserve">
+    <value>Sobre</value>
+  </data>
+  <data name="ABOUT ME [#UpperCase]" xml:space="preserve">
+    <value>SOBRE</value>
+  </data>
   <data name="Age" xml:space="preserve">
     <value>Idade</value>
   </data>
+  <data name="and alot of coffee" xml:space="preserve">
+    <value>e muito café</value>
+  </data>
+  <data name="Created and idealized by" xml:space="preserve">
+    <value>Criado e idealizado por</value>
+  </data>
+  <data name="Education" xml:space="preserve">
+    <value>Acadêmico</value>
+  </data>
+  <data name="EDUCATION [#UpperCase]" xml:space="preserve">
+    <value>ACADÊMICO</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Fullstack Developer" xml:space="preserve">
+    <value>Fullstack Developer</value>
+  </data>
   <data name="I'm Alisson Rubim" xml:space="preserve">
     <value>Eu sou o Alisson Rubim</value>
+  </data>
+  <data name="Made with" xml:space="preserve">
+    <value>Feito com</value>
+  </data>
+  <data name="My informations" xml:space="preserve">
+    <value>Meus dados</value>
+  </data>
+  <data name="Navigate" xml:space="preserve">
+    <value>Navigate</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Telefone</value>
+  </data>
+  <data name="Projects" xml:space="preserve">
+    <value>Projetos</value>
+  </data>
+  <data name="PROJECTS [#UpperCase]" xml:space="preserve">
+    <value>PROJETOS</value>
+  </data>
+  <data name="Skills" xml:space="preserve">
+    <value>Habilidades</value>
+  </data>
+  <data name="SKILLS [#UpperCase]" xml:space="preserve">
+    <value>HABILIDADES</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>Website</value>
   </data>
   <data name="Welcome," xml:space="preserve">
     <value>Seja bem-vindo(a),</value>
