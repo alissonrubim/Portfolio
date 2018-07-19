@@ -117,13 +117,112 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="About me" xml:space="preserve">
+    <value>About me</value>
+  </data>
+  <data name="ABOUT ME [#UpperCase]" xml:space="preserve">
+    <value>ABOUT ME</value>
+  </data>
   <data name="Age" xml:space="preserve">
     <value>Age</value>
+  </data>
+  <data name="and a lot of coffee" xml:space="preserve">
+    <value>and a lot of coffee</value>
+  </data>
+  <data name="Created and idealized by" xml:space="preserve">
+    <value>Created and idealized by</value>
+  </data>
+  <data name="Education" xml:space="preserve">
+    <value>Education</value>
+  </data>
+  <data name="EDUCATION [#UpperCase]" xml:space="preserve">
+    <value>EDUCATION [#UpperCase]</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Fullstack Developer" xml:space="preserve">
+    <value>Fullstack Developer</value>
   </data>
   <data name="I'm Alisson Rubim" xml:space="preserve">
     <value>I'm Alisson Rubim</value>
   </data>
+  <data name="Made with" xml:space="preserve">
+    <value>Made with</value>
+  </data>
+  <data name="My informations" xml:space="preserve">
+    <value>My informations</value>
+  </data>
+  <data name="Navigate" xml:space="preserve">
+    <value>Navigate</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="Projects" xml:space="preserve">
+    <value>Projects</value>
+  </data>
+  <data name="PROJECTS [#UpperCase]" xml:space="preserve">
+    <value>PROJECTS [#UpperCase]</value>
+  </data>
+  <data name="Skills" xml:space="preserve">
+    <value>Skills</value>
+  </data>
+  <data name="SKILLS [#UpperCase]" xml:space="preserve">
+    <value>SKILLS [#UpperCase]</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>Website</value>
+  </data>
   <data name="Welcome," xml:space="preserve">
     <value>Welcome,</value>
+  </data>
+  <data name="Advanced" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="Basic" xml:space="preserve">
+    <value>Basic</value>
+  </data>
+  <data name="Clique here to know more about my projects" xml:space="preserve">
+    <value>Clique here to know more about my projects</value>
+  </data>
+  <data name="Database" xml:space="preserve">
+    <value>Database</value>
+  </data>
+  <data name="Design" xml:space="preserve">
+    <value>Design</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="Intermediate" xml:space="preserve">
+    <value>Intermediate</value>
+  </data>
+  <data name="Languages" xml:space="preserve">
+    <value>Languages</value>
+  </data>
+  <data name="Native" xml:space="preserve">
+    <value>Native</value>
+  </data>
+  <data name="Portuguese" xml:space="preserve">
+    <value>Portuguese</value>
+  </data>
+  <data name="Spanish" xml:space="preserve">
+    <value>Spanish</value>
+  </data>
+  <data name="Mobile Development" xml:space="preserve">
+    <value>Mobile Development</value>
+  </data>
+  <data name="ALISSON RUBIM [#UpperCase]" xml:space="preserve">
+    <value>ALISSON RUBIM</value>
+  </data>
+  <data name="Back-End Development" xml:space="preserve">
+    <value>Back-End Development</value>
+  </data>
+  <data name="Front-End Development" xml:space="preserve">
+    <value>Front-End Development</value>
+  </data>
+  <data name="Fullstack Developer and Designer by hobby" xml:space="preserve">
+    <value>Fullstack Developer and Designer by hobby</value>
   </data>
 </root>

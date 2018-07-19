@@ -126,7 +126,7 @@
   <data name="Age" xml:space="preserve">
     <value>Idade</value>
   </data>
-  <data name="and alot of coffee" xml:space="preserve">
+  <data name="and a lot of coffee" xml:space="preserve">
     <value>e muito café</value>
   </data>
   <data name="Created and idealized by" xml:space="preserve">
@@ -209,5 +209,20 @@
   </data>
   <data name="Spanish" xml:space="preserve">
     <value>Espanhol</value>
+  </data>
+  <data name="Mobile Development" xml:space="preserve">
+    <value>Desenvolvimento Mobile</value>
+  </data>
+  <data name="ALISSON RUBIM [#UpperCase]" xml:space="preserve">
+    <value>ALISSON RUBIM</value>
+  </data>
+  <data name="Back-End Development" xml:space="preserve">
+    <value>Desenvolvimento Back-End</value>
+  </data>
+  <data name="Front-End Development" xml:space="preserve">
+    <value>Desenvolvimento Front-End</value>
+  </data>
+  <data name="Fullstack Developer and Designer by hobby" xml:space="preserve">
+    <value>Fullstack Developer e Designer por hobby</value>
   </data>
 </root>

@@ -97,11 +97,29 @@ namespace Portfolio.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to ALISSON RUBIM.
+        /// </summary>
+        internal static string ALISSON_RUBIM___UpperCase_ {
+            get {
+                return ResourceManager.GetString("ALISSON RUBIM [#UpperCase]", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to e muito café.
         /// </summary>
         internal static string and_alot_of_coffee {
             get {
                 return ResourceManager.GetString("and alot of coffee", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Desenvolvimento Back-End.
+        /// </summary>
+        internal static string Back_End_Development {
+            get {
+                return ResourceManager.GetString("Back-End Development", resourceCulture);
             }
         }
         
@@ -187,11 +205,29 @@ namespace Portfolio.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Desenvolvimento Front-End.
+        /// </summary>
+        internal static string Front_End_Development {
+            get {
+                return ResourceManager.GetString("Front-End Development", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Fullstack Developer.
         /// </summary>
         internal static string Fullstack_Developer {
             get {
                 return ResourceManager.GetString("Fullstack Developer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Fullstack Developer e Designer por hobby.
+        /// </summary>
+        internal static string Fullstack_Developer_and_Designer_by_hobby {
+            get {
+                return ResourceManager.GetString("Fullstack Developer and Designer by hobby", resourceCulture);
             }
         }
         
@@ -228,6 +264,15 @@ namespace Portfolio.Strings {
         internal static string Made_with {
             get {
                 return ResourceManager.GetString("Made with", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Desenvolvimento Mobile.
+        /// </summary>
+        internal static string Mobile_Development {
+            get {
+                return ResourceManager.GetString("Mobile Development", resourceCulture);
             }
         }
         
