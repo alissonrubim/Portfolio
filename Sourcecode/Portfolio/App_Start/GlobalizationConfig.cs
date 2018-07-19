@@ -19,7 +19,7 @@ namespace Portfolio
             GlobalizationController.AppendGlobalization("Portfolio.Strings.pt-BR", "pt-BR", null);
             GlobalizationController.OnGetCurrentLanguage += new GlobalizationController.GlobalizationControllerGetCurrentLanguageHandle(() =>
             {
-                return "en-US";
+                return HttpContext.Current.Session["CURRENT_LANGUAGE"] != null ? (string)HttpContext.Current.Session["CURRENT_LANGUAGE"] : "en-US";
             });
         }
 

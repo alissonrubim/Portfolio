@@ -61,6 +61,15 @@ namespace Portfolio.Strings {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Idade.
+        /// </summary>
+        internal static string Age {
+            get {
+                return ResourceManager.GetString("Age", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Eu sou o Alisson Rubim.
         /// </summary>
         internal static string I_m_Alisson_Rubim {
