@@ -225,4 +225,22 @@
   <data name="Fullstack Developer and Designer by hobby" xml:space="preserve">
     <value>Fullstack Developer e Designer por hobby</value>
   </data>
+  <data name="Analysis and systems development" xml:space="preserve">
+    <value>Análise e Desenvolvimento de Sistemas</value>
+  </data>
+  <data name="Brazilian born in Minas Gerais, I am a young man in love with technology and soon discovered that his hobby as a programmer could become a profession. From the age of 14 I tried to learn and improve my knowledge, starting with the basics of C and discovering over time my vocation for web development." xml:space="preserve">
+    <value>Brasileiro nascido em Minas Gerais, sou um rapaz apaixonado por tecnologia e que logo cedo descobriu que seu hobby de programador poderia se tornar uma profissão. Desde os 14 anos busquei aprender e aprimorar meus conhecimentos, começando com o básico do C e descobrindo com o tempo a minha vocação para o desenvolvimento web.</value>
+  </data>
+  <data name="Computer science" xml:space="preserve">
+    <value>Ciência da Computação</value>
+  </data>
+  <data name="I participated in several projects, collaborating to the best of my knowledge and sharing experiences with other collaborators." xml:space="preserve">
+    <value>Participei de vários projetos, colaborando com o máximo do meu conhecimento e dividindo experiências com os outros colaboradores.</value>
+  </data>
+  <data name="Industrial Informatics and Automation" xml:space="preserve">
+    <value>Informática Industrial e Automação</value>
+  </data>
+  <data name="It's never too late to learn how to develop." xml:space="preserve">
+    <value>Nunca é tarde para aprender a desenvolver.</value>
+  </data>
 </root>

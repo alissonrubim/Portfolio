@@ -106,11 +106,20 @@ namespace Portfolio.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Análise e Desenvolvimento de Sistemas.
+        /// </summary>
+        internal static string Analysis_and_systems_development {
+            get {
+                return ResourceManager.GetString("Analysis and systems development", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to e muito café.
         /// </summary>
-        internal static string and_alot_of_coffee {
+        internal static string and_a_lot_of_coffee {
             get {
-                return ResourceManager.GetString("and alot of coffee", resourceCulture);
+                return ResourceManager.GetString("and a lot of coffee", resourceCulture);
             }
         }
         
@@ -133,11 +142,29 @@ namespace Portfolio.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Brasileiro nascido em Minas Gerais, sou um rapaz apaixonado por tecnologia e que logo cedo descobriu que seu hobby de programador poderia se tornar uma profissão. Desde os 14 anos busquei aprender e aprimorar meus conhecimentos, começando com o básico do C e descobrindo com o tempo a minha vocação para o desenvolvimento web..
+        /// </summary>
+        internal static string Brazilian_born_in_Minas_Gerais__I_am_a_young_man_in_love_with_technology_and_soon_discovered_that_his_hobby_as_a_programmer_could_become_a_profession__From_the_age_of_14_I_tried_to_learn_and_improve_my_knowledge__starting_with_the_basics_of_C_and_discovering_over_time_my_vocation_for_web_development_ {
+            get {
+                return ResourceManager.GetString(@"Brazilian born in Minas Gerais, I am a young man in love with technology and soon discovered that his hobby as a programmer could become a profession. From the age of 14 I tried to learn and improve my knowledge, starting with the basics of C and discovering over time my vocation for web development.", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Clique aqui para conhecer mais alguns de meus projetos.
         /// </summary>
         internal static string Clique_here_to_know_more_about_my_projects {
             get {
                 return ResourceManager.GetString("Clique here to know more about my projects", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ciência da Computação.
+        /// </summary>
+        internal static string Computer_science {
+            get {
+                return ResourceManager.GetString("Computer science", resourceCulture);
             }
         }
         
@@ -241,11 +268,39 @@ namespace Portfolio.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Participei de vários projetos, colaborando com o máximo do meu conhecimento e dividindo experiências com os outros colaboradores..
+        /// </summary>
+        internal static string I_participated_in_several_projects__collaborating_to_the_best_of_my_knowledge_and_sharing_experiences_with_other_collaborators_ {
+            get {
+                return ResourceManager.GetString("I participated in several projects, collaborating to the best of my knowledge and" +
+                        " sharing experiences with other collaborators.", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Informática Industrial e Automação.
+        /// </summary>
+        internal static string Industrial_Informatics_and_Automation {
+            get {
+                return ResourceManager.GetString("Industrial Informatics and Automation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Intermediário.
         /// </summary>
         internal static string Intermediate {
             get {
                 return ResourceManager.GetString("Intermediate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Nunca é tarde para aprender a desenvolver..
+        /// </summary>
+        internal static string It_s_never_too_late_to_learn_how_to_develop_ {
+            get {
+                return ResourceManager.GetString("It\'s never too late to learn how to develop.", resourceCulture);
             }
         }
         
