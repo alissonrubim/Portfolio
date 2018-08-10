@@ -117,7 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="About me" xml:space="preserve">
+   <data name="About me" xml:space="preserve">
     <value>About me</value>
   </data>
   <data name="ABOUT ME [#UpperCase]" xml:space="preserve">
@@ -136,7 +136,7 @@
     <value>Education</value>
   </data>
   <data name="EDUCATION [#UpperCase]" xml:space="preserve">
-    <value>EDUCATION [#UpperCase]</value>
+    <value>EDUCATION</value>
   </data>
   <data name="Email" xml:space="preserve">
     <value>Email</value>
@@ -163,13 +163,13 @@
     <value>Projects</value>
   </data>
   <data name="PROJECTS [#UpperCase]" xml:space="preserve">
-    <value>PROJECTS [#UpperCase]</value>
+    <value>PROJECTS</value>
   </data>
   <data name="Skills" xml:space="preserve">
     <value>Skills</value>
   </data>
   <data name="SKILLS [#UpperCase]" xml:space="preserve">
-    <value>SKILLS [#UpperCase]</value>
+    <value>SKILLS</value>
   </data>
   <data name="Website" xml:space="preserve">
     <value>Website</value>
@@ -224,5 +224,23 @@
   </data>
   <data name="Fullstack Developer and Designer by hobby" xml:space="preserve">
     <value>Fullstack Developer and Designer by hobby</value>
+  </data>
+  <data name="Analysis and systems development" xml:space="preserve">
+    <value>Analysis and systems development</value>
+  </data>
+  <data name="Brazilian born in Minas Gerais, I am a young man in love with technology and soon discovered that his hobby as a programmer could become a profession. From the age of 14 I tried to learn and improve my knowledge, starting with the basics of C and discovering over time my vocation for web development." xml:space="preserve">
+    <value>Brazilian born in Minas Gerais, I am a young man in love with technology and soon discovered that his hobby as a programmer could become a profession. From the age of 14 I tried to learn and improve my knowledge, starting with the basics of C and discovering over time my vocation for web development.</value>
+  </data>
+  <data name="Computer science" xml:space="preserve">
+    <value>Computer science</value>
+  </data>
+  <data name="I participated in several projects, collaborating to the best of my knowledge and sharing experiences with other collaborators." xml:space="preserve">
+    <value>I participated in several projects, collaborating to the best of my knowledge and sharing experiences with other collaborators.</value>
+  </data>
+  <data name="Industrial Informatics and Automation" xml:space="preserve">
+    <value>Industrial Informatics and Automation</value>
+  </data>
+  <data name="It's never too late to learn how to develop." xml:space="preserve">
+    <value>It's never too late to learn how to develop.</value>
   </data>
 </root>
