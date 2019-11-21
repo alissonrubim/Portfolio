@@ -61,6 +61,33 @@ namespace Portfolio.Strings {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a About me.
+        /// </summary>
+        internal static string About_me {
+            get {
+                return ResourceManager.GetString("About me", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a ABOUT ME.
+        /// </summary>
+        internal static string ABOUT_ME___UpperCase_ {
+            get {
+                return ResourceManager.GetString("ABOUT ME [#UpperCase]", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Advanced.
+        /// </summary>
+        internal static string Advanced {
+            get {
+                return ResourceManager.GetString("Advanced", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Age.
         /// </summary>
         internal static string Age {
@@ -70,11 +97,290 @@ namespace Portfolio.Strings {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a ALISSON RUBIM.
+        /// </summary>
+        internal static string ALISSON_RUBIM___UpperCase_ {
+            get {
+                return ResourceManager.GetString("ALISSON RUBIM [#UpperCase]", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a and a lot of coffee.
+        /// </summary>
+        internal static string and_a_lot_of_coffee {
+            get {
+                return ResourceManager.GetString("and a lot of coffee", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Back-End Development.
+        /// </summary>
+        internal static string Back_End_Development {
+            get {
+                return ResourceManager.GetString("Back-End Development", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Basic.
+        /// </summary>
+        internal static string Basic {
+            get {
+                return ResourceManager.GetString("Basic", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Clique here to know more about my projects.
+        /// </summary>
+        internal static string Clique_here_to_know_more_about_my_projects {
+            get {
+                return ResourceManager.GetString("Clique here to know more about my projects", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Created and idealized by.
+        /// </summary>
+        internal static string Created_and_idealized_by {
+            get {
+                return ResourceManager.GetString("Created and idealized by", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Database.
+        /// </summary>
+        internal static string Database {
+            get {
+                return ResourceManager.GetString("Database", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Design.
+        /// </summary>
+        internal static string Design {
+            get {
+                return ResourceManager.GetString("Design", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Education.
+        /// </summary>
+        internal static string Education {
+            get {
+                return ResourceManager.GetString("Education", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a EDUCATION [#UpperCase].
+        /// </summary>
+        internal static string EDUCATION___UpperCase_ {
+            get {
+                return ResourceManager.GetString("EDUCATION [#UpperCase]", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Email.
+        /// </summary>
+        internal static string Email {
+            get {
+                return ResourceManager.GetString("Email", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a English.
+        /// </summary>
+        internal static string English {
+            get {
+                return ResourceManager.GetString("English", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Front-End Development.
+        /// </summary>
+        internal static string Front_End_Development {
+            get {
+                return ResourceManager.GetString("Front-End Development", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Fullstack Developer.
+        /// </summary>
+        internal static string Fullstack_Developer {
+            get {
+                return ResourceManager.GetString("Fullstack Developer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Fullstack Developer and Designer by hobby.
+        /// </summary>
+        internal static string Fullstack_Developer_and_Designer_by_hobby {
+            get {
+                return ResourceManager.GetString("Fullstack Developer and Designer by hobby", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a GuideMe is a 2D game made to stimulate children to learn more about development..
+        /// </summary>
+        internal static string GuideMe_is_a_2D_game_made_to_stimulate_children_to_learn_more_about_development_ {
+            get {
+                return ResourceManager.GetString("GuideMe is a 2D game made to stimulate children to learn more about development.", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a I&apos;m Alisson Rubim.
         /// </summary>
         internal static string I_m_Alisson_Rubim {
             get {
                 return ResourceManager.GetString("I\'m Alisson Rubim", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Intermediate.
+        /// </summary>
+        internal static string Intermediate {
+            get {
+                return ResourceManager.GetString("Intermediate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Languages.
+        /// </summary>
+        internal static string Languages {
+            get {
+                return ResourceManager.GetString("Languages", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Made with.
+        /// </summary>
+        internal static string Made_with {
+            get {
+                return ResourceManager.GetString("Made with", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Mobile Development.
+        /// </summary>
+        internal static string Mobile_Development {
+            get {
+                return ResourceManager.GetString("Mobile Development", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a My informations.
+        /// </summary>
+        internal static string My_informations {
+            get {
+                return ResourceManager.GetString("My informations", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Native.
+        /// </summary>
+        internal static string Native {
+            get {
+                return ResourceManager.GetString("Native", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Navigate.
+        /// </summary>
+        internal static string Navigate {
+            get {
+                return ResourceManager.GetString("Navigate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Phone.
+        /// </summary>
+        internal static string Phone {
+            get {
+                return ResourceManager.GetString("Phone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Portuguese.
+        /// </summary>
+        internal static string Portuguese {
+            get {
+                return ResourceManager.GetString("Portuguese", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Projects.
+        /// </summary>
+        internal static string Projects {
+            get {
+                return ResourceManager.GetString("Projects", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a PROJECTS [#UpperCase].
+        /// </summary>
+        internal static string PROJECTS___UpperCase_ {
+            get {
+                return ResourceManager.GetString("PROJECTS [#UpperCase]", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Skills.
+        /// </summary>
+        internal static string Skills {
+            get {
+                return ResourceManager.GetString("Skills", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a SKILLS [#UpperCase].
+        /// </summary>
+        internal static string SKILLS___UpperCase_ {
+            get {
+                return ResourceManager.GetString("SKILLS [#UpperCase]", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Spanish.
+        /// </summary>
+        internal static string Spanish {
+            get {
+                return ResourceManager.GetString("Spanish", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Website.
+        /// </summary>
+        internal static string Website {
+            get {
+                return ResourceManager.GetString("Website", resourceCulture);
             }
         }
         

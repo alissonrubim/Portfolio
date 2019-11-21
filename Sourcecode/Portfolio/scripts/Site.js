@@ -7,11 +7,11 @@ Site.Initiate = function () {
             name: "English",
             code: "en-US",
             icon: "united-states-flag",
-        }, {
+        }/*, {
             name: "Español",
             code: "es-ES",
             icon: "spain-flag"
-        }, {
+        }*/, {
             name: "Français",
             code: "fr-FR",
             icon: "france-flag"

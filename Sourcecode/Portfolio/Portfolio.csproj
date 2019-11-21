@@ -204,8 +204,8 @@
       <DependentUpon>fr-FR.resx</DependentUpon>
     </Compile>
     <Compile Include="Strings\pt-BR.Designer.cs">
-      <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
       <DependentUpon>pt-BR.resx</DependentUpon>
     </Compile>
   </ItemGroup>

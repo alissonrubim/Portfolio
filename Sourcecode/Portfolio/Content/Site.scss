@@ -226,7 +226,7 @@ section.scope {
         h4 {
             font-weight: bold;
             font-size: 25px;
-            color: #0490a2;
+            color: #717171;
         }
     }
 
@@ -252,13 +252,14 @@ section.scope {
     }
 }
 
-
 .card {
     margin-top: 50px;
     margin-bottom: 50px;
     background-color: white;
     padding: 40px;
-    box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.07058823529411765);
+    /* box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.07058823529411765);*/
+    border: 1px solid #f1f1f1;
+    border-bottom: 2px solid #d2d2d2;
 
     &.half {
         width: 49%;
@@ -283,6 +284,7 @@ section.scope {
         display: table;
         cursor: default;
         transition: transform .5s;
+
         &:hover {
             background-color: #04aabf;
         }
@@ -407,7 +409,7 @@ article.project {
 
 footer {
     color: #b1b1b1;
-    background-color: #2a3439;
+    background-color: #21292d;
     height: 400px;
 
     .footer-contents {
@@ -523,7 +525,7 @@ footer {
                 height: 0;
                 border-top: 10px solid transparent;
                 border-bottom: 10px solid transparent;
-                border-right: 10px solid white;
+                border-right: 10px solid #d0d0d0;
                 position: relative;
                 top: -15px;
                 left: 18px;
@@ -534,7 +536,7 @@ footer {
                 height: 0;
                 border-top: 10px solid transparent;
                 border-bottom: 10px solid transparent;
-                border-left: 10px solid white;
+                border-left: 10px solid #d0d0d0;
                 position: relative;
                 top: 15px;
             }
