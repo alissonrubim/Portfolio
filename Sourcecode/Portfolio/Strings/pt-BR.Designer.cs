@@ -70,15 +70,6 @@ namespace Portfolio.Strings {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a SOBRE.
-        /// </summary>
-        internal static string ABOUT_ME___UpperCase_ {
-            get {
-                return ResourceManager.GetString("ABOUT ME [#UpperCase]", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Avançado.
         /// </summary>
         internal static string Advanced {
@@ -93,15 +84,6 @@ namespace Portfolio.Strings {
         internal static string Age {
             get {
                 return ResourceManager.GetString("Age", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a ALISSON RUBIM.
-        /// </summary>
-        internal static string ALISSON_RUBIM___UpperCase_ {
-            get {
-                return ResourceManager.GetString("ALISSON RUBIM [#UpperCase]", resourceCulture);
             }
         }
         
@@ -277,11 +259,39 @@ namespace Portfolio.Strings {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Eu participei de vários projetos, colaborando com o melhor do meu conhecimento e compartilhando experiências com outros colaboradores..
+        /// </summary>
+        internal static string I_participated_in_several_projects__collaborating_to_the_best_of_my_knowledge_and_sharing_experiences_with_other_collaborators_ {
+            get {
+                return ResourceManager.GetString("I participated in several projects, collaborating to the best of my knowledge and" +
+                        " sharing experiences with other collaborators.", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Informática Industrial e Automação.
+        /// </summary>
+        internal static string Industrial_Informatics_and_Automation {
+            get {
+                return ResourceManager.GetString("Industrial Informatics and Automation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Intermediário.
         /// </summary>
         internal static string Intermediate {
             get {
                 return ResourceManager.GetString("Intermediate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Nunca é tarde para aprender como programar..
+        /// </summary>
+        internal static string It_s_never_too_late_to_learn_how_to_develop_ {
+            get {
+                return ResourceManager.GetString("It\'s never too late to learn how to develop.", resourceCulture);
             }
         }
         
@@ -367,29 +377,11 @@ namespace Portfolio.Strings {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a PROJETOS.
-        /// </summary>
-        internal static string PROJECTS___UpperCase_ {
-            get {
-                return ResourceManager.GetString("PROJECTS [#UpperCase]", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Habilidades.
         /// </summary>
         internal static string Skills {
             get {
                 return ResourceManager.GetString("Skills", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a HABILIDADES.
-        /// </summary>
-        internal static string SKILLS___UpperCase_ {
-            get {
-                return ResourceManager.GetString("SKILLS [#UpperCase]", resourceCulture);
             }
         }
         

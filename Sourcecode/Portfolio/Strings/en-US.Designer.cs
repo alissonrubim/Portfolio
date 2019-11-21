@@ -19,7 +19,7 @@ namespace Portfolio.Strings {
     // através de uma ferramenta como ResGen ou Visual Studio.
     // Para adicionar ou remover um associado, edite o arquivo .ResX e execute ResGen novamente
     // com a opção /str, ou recrie o projeto do VS.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class en_US {
@@ -70,15 +70,6 @@ namespace Portfolio.Strings {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a ABOUT ME.
-        /// </summary>
-        internal static string ABOUT_ME___UpperCase_ {
-            get {
-                return ResourceManager.GetString("ABOUT ME [#UpperCase]", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Advanced.
         /// </summary>
         internal static string Advanced {
@@ -97,11 +88,11 @@ namespace Portfolio.Strings {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a ALISSON RUBIM.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Analysis and systems development.
         /// </summary>
-        internal static string ALISSON_RUBIM___UpperCase_ {
+        internal static string Analysis_and_systems_development {
             get {
-                return ResourceManager.GetString("ALISSON RUBIM [#UpperCase]", resourceCulture);
+                return ResourceManager.GetString("Analysis and systems development", resourceCulture);
             }
         }
         
@@ -133,11 +124,29 @@ namespace Portfolio.Strings {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Brazilian born in Minas Gerais, I am a young man in love with technology and soon discovered that his hobby as a programmer could become a profession. From the age of 14 I tried to learn and improve my knowledge, starting with the basics of C and discovering over time my vocation for web development..
+        /// </summary>
+        internal static string Brazilian_born_in_Minas_Gerais__I_am_a_young_man_in_love_with_technology_and_soon_discovered_that_his_hobby_as_a_programmer_could_become_a_profession__From_the_age_of_14_I_tried_to_learn_and_improve_my_knowledge__starting_with_the_basics_of_C_and_discovering_over_time_my_vocation_for_web_development_ {
+            get {
+                return ResourceManager.GetString(@"Brazilian born in Minas Gerais, I am a young man in love with technology and soon discovered that his hobby as a programmer could become a profession. From the age of 14 I tried to learn and improve my knowledge, starting with the basics of C and discovering over time my vocation for web development.", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Clique here to know more about my projects.
         /// </summary>
         internal static string Clique_here_to_know_more_about_my_projects {
             get {
                 return ResourceManager.GetString("Clique here to know more about my projects", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Computer science.
+        /// </summary>
+        internal static string Computer_science {
+            get {
+                return ResourceManager.GetString("Computer science", resourceCulture);
             }
         }
         
@@ -174,15 +183,6 @@ namespace Portfolio.Strings {
         internal static string Education {
             get {
                 return ResourceManager.GetString("Education", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a EDUCATION [#UpperCase].
-        /// </summary>
-        internal static string EDUCATION___UpperCase_ {
-            get {
-                return ResourceManager.GetString("EDUCATION [#UpperCase]", resourceCulture);
             }
         }
         
@@ -250,11 +250,39 @@ namespace Portfolio.Strings {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a I participated in several projects, collaborating to the best of my knowledge and sharing experiences with other collaborators..
+        /// </summary>
+        internal static string I_participated_in_several_projects__collaborating_to_the_best_of_my_knowledge_and_sharing_experiences_with_other_collaborators_ {
+            get {
+                return ResourceManager.GetString("I participated in several projects, collaborating to the best of my knowledge and" +
+                        " sharing experiences with other collaborators.", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Industrial Informatics and Automation.
+        /// </summary>
+        internal static string Industrial_Informatics_and_Automation {
+            get {
+                return ResourceManager.GetString("Industrial Informatics and Automation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Intermediate.
         /// </summary>
         internal static string Intermediate {
             get {
                 return ResourceManager.GetString("Intermediate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a It&apos;s never too late to learn how to develop..
+        /// </summary>
+        internal static string It_s_never_too_late_to_learn_how_to_develop_ {
+            get {
+                return ResourceManager.GetString("It\'s never too late to learn how to develop.", resourceCulture);
             }
         }
         
@@ -340,15 +368,6 @@ namespace Portfolio.Strings {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a PROJECTS [#UpperCase].
-        /// </summary>
-        internal static string PROJECTS___UpperCase_ {
-            get {
-                return ResourceManager.GetString("PROJECTS [#UpperCase]", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Skills.
         /// </summary>
         internal static string Skills {
@@ -358,20 +377,31 @@ namespace Portfolio.Strings {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a SKILLS [#UpperCase].
-        /// </summary>
-        internal static string SKILLS___UpperCase_ {
-            get {
-                return ResourceManager.GetString("SKILLS [#UpperCase]", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Spanish.
         /// </summary>
         internal static string Spanish {
             get {
                 return ResourceManager.GetString("Spanish", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a .
+        /// </summary>
+        internal static string String1 {
+            get {
+                return ResourceManager.GetString("String1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a The game is interesting because it is possible to program the actions of the doll with simple commands, showing to those who are learning how the programming logic works..
+        /// </summary>
+        internal static string The_game_is_interesting_because_it_is_possible_to_program_the_actions_of_the_doll_with_simple_commands__showing_to_those_who_are_learning_how_the_programming_logic_works_ {
+            get {
+                return ResourceManager.GetString("The game is interesting because it is possible to program the actions of the doll" +
+                        " with simple commands, showing to those who are learning how the programming log" +
+                        "ic works.", resourceCulture);
             }
         }
         

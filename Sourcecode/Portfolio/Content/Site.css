@@ -93,7 +93,8 @@ header#header-main {
       width: 200px;
       color: white;
       font-size: 26px;
-      font-weight: bold; }
+      font-weight: bold;
+      text-transform: uppercase; }
     header#header-main div#profile-text div#profile-text-detail {
       width: 200px;
       color: white;
@@ -151,6 +152,7 @@ section.scope {
   section.scope header {
     text-align: center; }
     section.scope header h4 {
+      text-transform: uppercase;
       font-weight: bold;
       font-size: 25px;
       color: #717171; }

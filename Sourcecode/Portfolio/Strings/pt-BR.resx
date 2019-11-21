@@ -120,9 +120,6 @@
   <data name="About me" xml:space="preserve">
     <value>Sobre</value>
   </data>
-  <data name="ABOUT ME [#UpperCase]" xml:space="preserve">
-    <value>SOBRE</value>
-  </data>
   <data name="Age" xml:space="preserve">
     <value>Idade</value>
   </data>
@@ -162,14 +159,8 @@
   <data name="Projects" xml:space="preserve">
     <value>Projetos</value>
   </data>
-  <data name="PROJECTS [#UpperCase]" xml:space="preserve">
-    <value>PROJETOS</value>
-  </data>
   <data name="Skills" xml:space="preserve">
     <value>Habilidades</value>
-  </data>
-  <data name="SKILLS [#UpperCase]" xml:space="preserve">
-    <value>HABILIDADES</value>
   </data>
   <data name="Website" xml:space="preserve">
     <value>Website</value>
@@ -213,9 +204,6 @@
   <data name="Mobile Development" xml:space="preserve">
     <value>Desenvolvimento Mobile</value>
   </data>
-  <data name="ALISSON RUBIM [#UpperCase]" xml:space="preserve">
-    <value>ALISSON RUBIM</value>
-  </data>
   <data name="Back-End Development" xml:space="preserve">
     <value>Desenvolvimento Back-End</value>
   </data>
@@ -239,5 +227,14 @@
   </data>
   <data name="Analysis and systems development" xml:space="preserve">
     <value>Análise e Desenvolvimento de Sistemas</value>
+  </data>
+  <data name="I participated in several projects, collaborating to the best of my knowledge and sharing experiences with other collaborators." xml:space="preserve">
+    <value>Eu participei de vários projetos, colaborando com o melhor do meu conhecimento e compartilhando experiências com outros colaboradores.</value>
+  </data>
+  <data name="Industrial Informatics and Automation" xml:space="preserve">
+    <value>Informática Industrial e Automação</value>
+  </data>
+  <data name="It's never too late to learn how to develop." xml:space="preserve">
+    <value>Nunca é tarde para aprender como programar.</value>
   </data>
 </root>

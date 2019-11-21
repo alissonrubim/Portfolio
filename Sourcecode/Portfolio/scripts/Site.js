@@ -1,21 +1,21 @@
 ﻿Site = {};
 
 Site.Initiate = function () {
-    console.log('%c> Oh my heavens! What your doing here?! ಠ_ಠ', 'background: #e1e1e1; padding: 20px; color: black');
+    console.log('%c> Oh my! What are you doing here?! ಠ_ಠ', 'background: #e1e1e1; padding: 20px; color: black');
 
     Site.SetLanguages("#combobox-language-container", [{
             name: "English",
             code: "en-US",
             icon: "united-states-flag",
-        }/*, {
-            name: "Español",
+        }/*, {  
+            name: "Español",   //It's better remove that befone any one discovery that I don't speak these shit :X
             code: "es-ES",
             icon: "spain-flag"
-        }*/, {
+        }, {
             name: "Français",
             code: "fr-FR",
             icon: "france-flag"
-        },{
+        }*/,{
             name: "Português",
             code: "pt-BR",
             icon: "brazil-flag"
@@ -181,7 +181,8 @@ Site.SetLanguages = function (target, languageArray) {
     list.hide();
     $(target).append(list);
 
-   /* $(target).click(function () {
+   /* Yes! I do have commented code in my portfólio, any problem with that?
+      $(target).click(function () {
         if (Site.ListLanguageIsOpen == false) {
             list.show();
             Site.ListLanguageIsOpen = true;
